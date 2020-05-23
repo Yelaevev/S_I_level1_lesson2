@@ -36,10 +36,10 @@ namespace Level1Space
                 }
             }
 
-            for (int i = 0; i <= (length - 3); i = i + 2)
+            for (int i = 1; i <= (length - 2); i = i + 2)
             {
-                //int a = oksana[i];
-                //int b = oksana[i + 2];
+                int a = oksana[i];
+                int b = oksana[i + 2];
                 // if (a > b)
                 if (oksana[i] >= oksana[i + 2])
                
@@ -62,7 +62,7 @@ namespace Level1Space
                     int a = oksana[i];
                     int b = oksana[i + 1];
                     int c = oksana[i - 2];
-                    int tempControl = oksana[i + 1] * (oksana[i] - oksana[i - 2]);
+                    int tempControl = oksana[i ] * (oksana[i+1] - oksana[i -1]);
                     if (tempControl < 0)   /// proverka perepolneniy diapazona int (yslovie men'che 0 tak kak pri prevychenii)
                                            /// max znacheniy (2147483647) pereskakivaet na (-2147483648)
                     {
@@ -70,7 +70,7 @@ namespace Level1Space
                         return 0;
                     }
 
-                    rez = rez + oksana[i+1] * (oksana[i ] - oksana[i - 2]);
+                    rez = rez + oksana[i] * (oksana[i + 1] - oksana[i - 1]); 
                     if (rez < 0)  ///analogichnay proverka^ diapozona znacheniy int
                     {
                         Console.WriteLine("prevycheno maksimalnoe znachenie puti");
@@ -86,9 +86,9 @@ namespace Level1Space
         //static void Main(string[] args)
         //{
 
-        //    //int[] pasha = { 1, 2147483647, 3, 1073741825,5,0};
-        //    int[] pasha = { 2, 10, 5, 30, 6, 40,5,69 };
-        //    int rezultat = odometer(pasha);
+        //   // int[] pasha = { 1, 2147483647, 3, 1073741825,5,0};
+        //    //int[] pasha = { 20, 2, 30, 6, 10, 7, 0,7};
+        //    //int rezultat = odometer(pasha);
 
 
         //    Console.WriteLine($"rezultat={rezultat}");
