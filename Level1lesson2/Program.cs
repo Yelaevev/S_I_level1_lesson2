@@ -10,10 +10,10 @@ namespace Level1Space
             int rez = 0;
             int length;
             bool testControl = true;
-            ////////////////////////////////////////////////
+            
             //////proverka ysloviy
             length = oksana.Length;
-            Console.WriteLine($"length= { length}");
+           // Console.WriteLine($"length= { length}");
             if (length < 2)
             {
                // testControl = false;
@@ -51,8 +51,8 @@ namespace Level1Space
             }
 
            
-///////////////////////////////////////
-///////// rashet puti
+
+            ///////// rashet puti
             if (testControl)
             {
                 rez = oksana[0] * oksana[1];
@@ -83,15 +83,15 @@ namespace Level1Space
             return rez;
         }
 
-        static void Main(string[] args)
-        {
+        //static void Main(string[] args)
+        //{
 
-            //int[] pasha = { 1, 2147483647, 3, 1073741825,5,0};
-            int[] pasha = { 2, 10, 5, 30, 6, 40,5,69 };
-            int rezultat = odometer(pasha);
+        //    //int[] pasha = { 1, 2147483647, 3, 1073741825,5,0};
+        //    int[] pasha = { 2, 10, 5, 30, 6, 40,5,69 };
+        //    int rezultat = odometer(pasha);
 
 
-            Console.WriteLine($"rezultat={rezultat}");
-        }
+        //    Console.WriteLine($"rezultat={rezultat}");
+        //}
     }
 }
