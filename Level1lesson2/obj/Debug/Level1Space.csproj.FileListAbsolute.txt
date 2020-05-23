@@ -1,0 +1,6 @@
+c:\users\speedfire\Level1lesson2\Level1lesson2\bin\Debug\Level1lesson2.exe.config
+c:\users\speedfire\Level1lesson2\Level1lesson2\bin\Debug\Level1lesson2.exe
+c:\users\speedfire\Level1lesson2\Level1lesson2\bin\Debug\Level1lesson2.pdb
+c:\users\speedfire\Level1lesson2\Level1lesson2\obj\Debug\Level1Space.csprojResolveAssemblyReference.cache
+c:\users\speedfire\Level1lesson2\Level1lesson2\obj\Debug\Level1lesson2.exe
+c:\users\speedfire\Level1lesson2\Level1lesson2\obj\Debug\Level1lesson2.pdb
